@@ -16,7 +16,6 @@ refs.input.addEventListener('input', debounce(onInput, DEBOUNCE_DELAY));
 function onInput(event) {
   event.preventDefault();
   const inputValue = refs.input.value.trim();
-  console.log(inputValue);
 
   if (inputValue.length === 0) {
     clearCountryList();
