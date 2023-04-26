@@ -62,8 +62,8 @@ function createCoutryInfo(countries) {
     <h2 class="country-name">${name.official}</h2>
       </div>
     <ul class="secondary-info">
-    <li class="country-info">Capital: <span class="country-span">${capital}</span></li>
-    <li class="country-info">Population: <span class="country-span">${population}</span></li>
+    <li class="country-info">Capital: <span class="counrty-span">${capital}</span></li>
+    <li class="country-info">Population: <span class="counrty-span">${population}</span></li>
     <li class="country-info">Languages: <span class="country-span">${Object.values(
       languages
     )}</span></li>
