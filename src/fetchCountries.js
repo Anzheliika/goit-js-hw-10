@@ -7,4 +7,3 @@ export function fetchCountries(name) {
   });
 }
 
-// export { fetchCountries };

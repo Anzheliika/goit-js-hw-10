@@ -19,6 +19,7 @@ function onInput(event) {
 
   if (inputValue.length === 0) {
     clearCountryList();
+    clearCountryInfo();
     return;
   }
 
