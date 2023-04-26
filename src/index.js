@@ -22,7 +22,9 @@ function onInput(event) {
     return;
   }
 
-  fetchCountries(inputValue).then(onSearchCountry).catch(onError);
+  fetchCountries(inputValue)
+    .then(countries => onSearchCountry(countries))
+    .catch(onError);
 }
 
 function onSearchCountry(countries) {
