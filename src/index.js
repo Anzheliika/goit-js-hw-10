@@ -33,11 +33,11 @@ function onSearchCountry(countries) {
     clearCountryList();
   } else if (countries.length >= 2 && countries.length <= 10) {
     clearCountryInfo();
-    markupList = createCoutriesList(countries);
+    const markupList = createCoutriesList(countries);
     updateCoutriesList(markupList);
   } else if (countries.length === 1) {
     clearCountryList();
-    markupInfo = createCoutryInfo(countries);
+    const markupInfo = createCoutryInfo(countries);
     updateCoutryInfo(markupInfo);
   }
 }
